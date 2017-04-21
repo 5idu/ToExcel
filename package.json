@@ -1,0 +1,20 @@
+{
+  "name": "toexcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": ".\\node_modules\\.bin\\electron .\\",
+    "package": "electron-packager ./ ToExcel --win --out ToExcel --arch=x64 --version 1.6.5 --overwrite --ignore=node_modules"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.3.0",
+    "cheerio": "^0.22.0",
+    "electron": "^1.6.5",
+    "electron-packager": "^8.6.0",
+    "json2xls": "^0.1.2",
+    "superagent": "^3.5.2"
+  }
+}
